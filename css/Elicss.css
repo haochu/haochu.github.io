@@ -1,0 +1,424 @@
+@font-face {
+    font-family: "A1_kimi";
+    src: url("fonts/A1.otf") format("truetype");
+  }
+
+.Eli_delay{
+    -webkit-animation-delay: 1s; 
+    animation-delay: 1s;
+}
+.Eli_titlehide{
+    background-image: url("images/intro_vsl2.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    
+}  
+
+.Eli_titlehidebackground{
+  background-color: white;
+}
+
+.Eli_overalleditregion1{
+    background-color:rgba(255, 255, 255, 0.123);
+    margin: auto;
+    max-width: 1400px;
+    height:auto;
+}
+.Eli_overalleditfullwide{
+    margin: auto;
+    max-width: 100%;
+    height: auto;
+}
+
+.Eli_topbanner1{
+    background-color: rgb(2,184,191);
+    height: 1vh;
+}
+.Eli_topbanner2{
+    background-color: rgb(25,144,206);
+    height: 1vh;
+}
+.Eli_topbanner3{
+    background-color: rgb(7,188,131);
+    height: 1vh;
+}
+
+.Eli_logo{
+     /* background-image: url("My Website/Image/LOGO_temp.jpg"); */
+    /* background-size: auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed; */ 
+    width: 170px;
+    height: 50px;
+    
+}
+
+.Eli_linespace1{
+    height: 1vh;
+}
+.Eli_linespace2{
+    height: 2vh;
+}
+.Eli_linespace4{
+    height: 4vh;
+    margin: 1px auto 1px auto;
+    padding: 1px auto 1px auto;
+}
+.Eli_linespace16{
+    height: 16vh;
+    margin: 1px auto 1px auto;
+    padding: 1px auto 1px auto;
+}
+.Eli_columnspace1{
+   width: 1vw;
+}
+.Eli_columnspace2{
+    width: 2vw;
+}
+.Eli_columnspace6{
+    width: 6vw;
+}
+.Eli_navbar1{
+    font-family: "A1_kimi";
+    max-height: 5vh;
+    color: rgb(0,77,150);
+}
+.Eli_navbar2{
+    max-height: 3vh;
+}
+
+.Eli_barword{
+    font: "A1_kimi";
+    font-weight: 350;
+    font-size: 1rem; 
+    color: rgb(55, 0, 255);
+}
+
+.Eli_titlebackground{
+    background-image: url("images/intro_vsl.jpg");
+    margin: 0 auto 1vh auto;
+    padding: 1vh auto 1vh auto;
+    height:750px;
+    background-size: cover;
+    padding: 1px 10px 1px 10px;
+}
+.Eli_titletextbox{
+    height: 43vh;
+
+}
+
+.Eli_indexword1{
+    font-family: "A1_kimi";
+    font-size:3rem;
+    font-weight: 800;
+    color: white;
+    margin: 1vh 0 4vh 0;
+    padding: 1vh 0 1vh 0;
+    height: 5vh;
+}
+
+.Eli_indexword3{
+    font-family: "A1_kimi";
+    font-size:1rem;
+    font-weight: 300;
+    color: white;
+    margin: 5px 0 5px 0;
+    padding: 5px 0 5px 0;
+    width:400px;
+}
+
+.Eli_indexword2{
+    font-family: "A1_kimi";
+    font-size:1rem;
+    font-weight: 300;
+    color: white;
+    margin: 0px 0 0px 0;
+    padding: 0px 0 0px 0;
+    width:700px;
+}
+
+.Eli_indexword5{
+    font-family: "A1_kimi";
+    font-size:1rem;
+    font-weight: 100;
+    color: white;
+    margin: 0;
+    padding: 0px 0 0px 0;
+}
+
+.Eli_indexword4{
+    font-family: "A1_kimi";
+    font-size:1.7rem;
+    font-weight: 300;
+    color: white;
+    margin: 0;
+    padding: 1px;
+    width:170px;
+    text-align: center;
+}
+
+.Eli_whiteline{
+    border-width: 2px;
+    border-color: white;
+    width: 300px;
+    margin: 1vh auto 1vh 0vh;
+}
+.Eli_blueline{
+    border-width: 2px;
+    border-color: rgb(13,65,92);
+    width: 300px;
+    margin: 1vh auto 1vh 0vh;
+}
+
+.btn_sharp {
+    border-radius:0;
+  }
+
+.btn_primary{
+    border: 0 solid;
+    box-shadow: inset 0 0 20px rgba(255, 255, 255, 0);
+    outline: 1px solid;
+    outline-color: rgb(255, 255, 255);
+    outline-offset: 0px;
+    text-shadow: none;
+    transition: all 1250ms cubic-bezier(0.19, 1, 0.22, 1);
+    background-color: rgba(255, 255, 255, 0);
+    color: white;
+    width: 100px;
+}
+
+.btn_primary:hover{
+    border: 0px solid;
+    /* box-shadow: inset 0 0 20px rgba(255, 255, 255, .5), 0 0 20px rgba(255, 255, 255, .2); */
+    /* outline-color: rgba(255, 255, 255, 0); */
+    /* outline-offset: 5px; */
+    /* text-shadow: 1px 1px 2px #427388;  */
+    background-color: rgba(255, 255, 255, 0.438);
+}
+
+.Eli_productcat1{
+    background-color: rgba(79, 91, 92, 0.3);
+    height: 100px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-align: center;
+
+}
+.Eli_productcat2{
+    background-color: rgba(25,144,206, 0.5);
+    height: 240px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-align: center;
+}
+.Eli_productcat3{
+    background-color: rgba(7,188,131, 0.5);
+    height: 240px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-align: center;
+}
+.Eli_productcat1_1{
+    background-color: rgba(2,184,191, 1);
+    height: 10px;
+}
+.Eli_productcat2_1{
+    background-color: rgba(25,144,206, 1);
+    height: 10px;
+}
+.Eli_productcat3_1{
+    background-color: rgba(7,188,131, 1);
+    height: 10px;
+}
+
+.Eli_color1{
+    color: rgb( 13,65,92);
+}
+.Eli_color2{
+    color: rgb(255, 255, 255);
+}
+.Eli_color3{
+    color: rgb(0,77,150);
+}
+.Eli_color4{
+    color: rgb(13,65,92);
+}
+
+.Eli_margin1{
+    margin: 0px auto 0px auto;
+}
+.Eli_font1{
+    font-size:1.7rem;
+    font-weight: 300;
+    color: white;
+}
+.Eli_font2{
+    font-size:1.7rem;
+    font-weight: 700;
+    color: white;
+}
+.Eli_font3{
+    font-family: "A1_kimi";
+    font-size:4rem;
+    font-weight: 300;
+    color: rgba(0, 0, 0, 0.678);
+}
+.Eli_font4{
+    font-family: "A1_kimi";
+    font-size:3rem;
+    font-weight: 300;
+    color: rgba(0, 0, 0, 0.678);
+}
+.Eli_font5{
+    font-family: "A1_kimi";
+    font-size:5rem;
+    font-weight: 300;
+    color: rgba(13,65,92);
+}
+
+Eli_font6{
+    font-family: "A1_kimi";
+    font-size:1rem;
+    font-weight: 300;
+    color: rgba(0, 0, 0, 0.678);
+}
+.Eli_color4{
+    color: rgb(9,76,158);
+}
+.Eli_txtboxheight1{
+    height: 40px;
+}
+.Eli_parallax { 
+   
+    background-image: url("images/background2.jpg");
+    height: 500px; 
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.videoWrapper {
+    position: relative;
+    padding-bottom: 56.25%; /* 16:9 */
+    padding-top: 25px;
+    height: 0;
+}
+.videoWrapper iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+.Eli_aligncenter{
+    align-content: center;
+    text-align: center;
+}
+
+.Eli_nomargin{
+    margin: 0;
+}
+.Eli_cast1{
+    background-image: url("images/cast.png");
+    height: 700px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.Eli_cast1{
+    background-image: url("images/cast.png");
+    height: 700px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.Eli_cast2{
+    background-image: url("images/cast2.png");
+    height: 600px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.Eli_overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #008CBA;
+  }
+  
+  .Eli_hover:hover {
+    opacity: 0.3;
+    height: 50px;
+  }
+
+  .Eli_backtotop{
+      height:20px;
+  }
+
+.scrollme{
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    z-index: 999;
+    border-radius: 50%;
+    height: 80px;
+    width: 80px;
+    text-align: center;
+}
+.scrollme:hover{
+    opacity: 0.5;
+}
+
+#Eli_social{
+
+    margin: auto;
+}
+
+#Eli_social:hover{
+    opacity:0.5;
+}
+
+.Eli_arrow{
+    margin: auto 0px auto 0px;
+}
+
+.Eli_danmuwindow{
+    border-width: 1px;
+    border-color: black;
+    box-shadow: 1px 1px 2px grey;
+    height: 100vh;
+    background-color: white;
+
+}
+
+.Eli_danmucontainer{
+    font-family: "A1_kimi";
+    font-size:3rem;
+    height: 80vh;
+    width: 90%;
+    margin: auto 5% auto 5%;
+    background-color: white;
+    color: black;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.Eli_danmutitle{
+    font-family: "A1_kimi";
+    font-size:2rem;
+    color: rgb(75, 74, 74);
+    margin: 0px;
+}
